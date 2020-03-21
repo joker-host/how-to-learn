@@ -17,10 +17,11 @@
     display: flex;
 }
 
-.img {
+.header__logo {
     position: absolute;
     top: 30px;
     left: 64px;
+    z-index: 2;
 }
 
 .header__title {
@@ -33,16 +34,38 @@
     line-height: 96px;
     font-weight: bold;
     width: 730px;
+    position: relative;
+    z-index: 2;
 }
 
-.header_par-p {
+.header__subtitle {
     position: absolute;
     bottom: 30px;
     left: 64px;
+    z-index: 2;
+}
+
+.header_subtitle-p {
     width: 388px;
     font-size: 18px;
     line-height: 25px;
     font-weight: normal;
+}
+
+.header__link {
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+.header__main-illustration {
+    background-image: url(../images/two_again.png);
+    background-size: cover;
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .header__square-pic {
@@ -54,15 +77,6 @@
     right: 0;
 }
 
-.header__main-illustration {
-    background-image: url(../images/two_again.png);
-    background-size: cover;
-    width: 765px;
-    height: 608px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
