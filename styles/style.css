@@ -15,6 +15,7 @@
     max-height: 756px;
     /* выше установили ограничения для секции */
     display: flex;
+    margin-bottom: 100px;
 }
 
 .header__logo {
@@ -27,18 +28,19 @@
 .header__title {
     align-self: center;
     margin-left: 64px;
+    width: 730px;
 }
 
 .header__title-h1 {
     font-size: 102px;
     line-height: 96px;
     font-weight: bold;
-    width: 730px;
     position: relative;
     z-index: 2;
 }
 
 .header__subtitle {
+    width: 388px;
     position: absolute;
     bottom: 30px;
     left: 64px;
@@ -46,7 +48,6 @@
 }
 
 .header_subtitle-p {
-    width: 388px;
     font-size: 18px;
     line-height: 25px;
     font-weight: normal;
@@ -77,12 +78,58 @@
     right: 0;
 }
 
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-    height: 568px;
-    width: 568px;
+.two-columns {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
+
+.two-column__brief {
+    display: block;
+    width: 175px;
+    margin: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2F80ED;
+}
+
+.two-column__paragraph {
+    display: block;
+    margin: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.two-solumn__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.two-column__main-text {
+    width: 80%;
+    min-width: 784px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+   
+}
+
+.two-column__margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div {
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
