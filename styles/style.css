@@ -225,7 +225,6 @@
     font-size: 120px;
     font-weight: bold;
     margin-bottom: 70px;
-
 }
 
 .feinman__subtitle {
@@ -258,6 +257,62 @@
     z-index: -1;
 }
 
+/* Секция 4 */
+/* Секция 4 */
+/* Секция 4 */
+
+.kaufman {
+    position: relative;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    overflow: hidden;
+}
+
+.section__title_theme_dark {
+    align-self: center;
+    padding-top: 90px;
+    color: white;
+}
+
+.section__subtitle_theme_dark {
+    align-self: center;
+    color: white;
+}
+
+.table__theme_dark {
+    align-self: center;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
+
+.padding_bottom {
+    padding-bottom: 90px;
+}
+
+.kaufman__triangle {
+    overflow: hidden;
+}
+
+.triangle {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    top: 0;
+    right: -210px;
+    z-index: -1;
+}
+
+/* Подвал 4 */
+/* Подвал 4 */
+/* Подвал 4 */
+
 
 
 
@@ -265,12 +320,4 @@
 
 div {
     /* border: 1px solid black; */
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
 }
