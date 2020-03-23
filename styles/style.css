@@ -13,6 +13,11 @@
     text-decoration: none;
 }
 
+.logo {
+    width: 183px;
+    height: 32px;
+}
+
 
 /* Шапка */
 /* Шапка */
@@ -268,6 +273,7 @@
     flex-direction: column;
     background-color: #1F1F1F;
     overflow: hidden;
+    padding-bottom: 90px;
 }
 
 .section__title_theme_dark {
@@ -309,15 +315,86 @@
     z-index: -1;
 }
 
-/* Подвал 4 */
-/* Подвал 4 */
-/* Подвал 4 */
+/* Подвал */
+/* Подвал */
+/* Подвал */
 
-
-
-
-
-
-div {
-    /* border: 1px solid black; */
+.footer {
+    background-color: #1F1F1F;
 }
+
+.footer__columns {
+    display: flex;
+    width: 90%;
+    min-height: 350px;
+    margin: auto;
+    padding: 60px 0 40px 0;
+    justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+    flex-basis: 711px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo__place_footer {
+    align-self: flex-start;
+    height: 35px;
+}
+
+.footer__author {
+    margin: 0;
+    margin: 18px 0 18px 0;
+    color: white;
+}
+
+.footer_column_content_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column-heading {
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer__column-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.footer_column_content_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social-icon {
+    float: left;
+    margin-right: 10px;
+    object-fit: contain;
+    align-self: space-between;
+}
+
+.footer__column-link {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    color: white
+}
+
+
+
+
+
+/* div {
+    border: 1px solid red;
+} */
