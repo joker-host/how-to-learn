@@ -213,7 +213,11 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: #F2F2F2;
-    z-index: -2;
+    background-image: url(../images/feinman.png);
+    background-repeat: no-repeat;
+    background-size: 867px 637px;
+    background-position: left bottom;
+    z-index: -1;
 }
 
 .feinman__title {
@@ -246,18 +250,6 @@
     text-decoration: none;
 }
 
-.feinman__img {
-    background-image: url(../images/feinman.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 867px;
-    height: 637px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
-
 /* Секция 4 kaufman*/
 /* Секция 4 kaufman*/
 /* Секция 4 kaufman*/
@@ -283,7 +275,7 @@
     color: white;
 }
 
-.table__theme_dark {
+.table_theme_dark {
     align-self: center;
 }
 
