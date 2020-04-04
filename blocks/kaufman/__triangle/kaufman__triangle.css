@@ -1,0 +1,18 @@
+@keyframes rotate_triangle-pic {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.kaufman__triangle {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    top: 0;
+    right: -210px;
+    z-index: -1;
+    animation: rotate_triangle-pic 20s infinite linear;
+}
