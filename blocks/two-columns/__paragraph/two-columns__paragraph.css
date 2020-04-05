@@ -1,4 +1,4 @@
-.two-column__paragraph {
+.two-columns__paragraph {
     display: block;
     margin: 0;
     line-height: 34px;
@@ -6,7 +6,7 @@
     font-weight: normal;
 }
 
-.two-column__paragraph:nth-child(even) {
+.two-columns__paragraph:nth-child(even) {
     margin-top: 30px;
     margin-bottom: 30px;
 }
